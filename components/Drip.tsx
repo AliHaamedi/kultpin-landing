@@ -12,7 +12,7 @@ const Drip = () => {
         className="w-40 sm:w-48 md:w-52 lg:w-56 h-auto"
       />
       <h1 className="font-bob text-secondary text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center">
-        We're LIVE on DRiP
+        We&apos;re LIVE on DRiP
       </h1>
 
       <button className="font-bold hover:bg-secondary hover:border-transparent transition-all py-0.5 px-2 sm:px-2.5 hover:text-primary rounded-sm cursor-pointer text-white bg-transparent duration-400 border border-secondary text-xs sm:text-sm md:text-base">

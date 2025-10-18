@@ -15,9 +15,9 @@ const Kultpin = () => {
           <span className="font-bob text-lg sm:text-xl">KultPin</span>
           The next chapter of the movement is on the way.KultPin Coin will power
           our creative ecosystem on Solana, connecting artists, collectors, and
-          fans who live the cultureIt's more than a token; it's a symbol of
-          rhythm, rebellion, and realness.Stay tuned as we bring the streets to
-          the blockchain
+          fans who live the cultureIt&apos;s more than a token; it&apos;s a
+          symbol of rhythm, rebellion, and realness.Stay tuned as we bring the
+          streets to the blockchain
         </p>
         <h2 className="text-primary text-lg sm:text-xl font-bold">
           Coming Soon
