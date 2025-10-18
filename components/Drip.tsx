@@ -19,7 +19,7 @@ const Drip = () => {
         Kulture just hit the chain
       </button>
 
-      <div className="flex flex-col sm:flex-row relative justify-center mt-10 sm:mt-16 md:mt-20 gap-4 sm:gap-6 md:gap-8 lg:gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-col sm:flex-row relative justify-center mt-10 sm:mt-16 md:mt-20 gap-4 sm:gap-6 md:gap-8 lg:gap-10 mx-auto">
         <Image
           src={"/images/dripLine1.png"}
           width={550}
