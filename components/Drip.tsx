@@ -19,13 +19,13 @@ const Drip = () => {
         Kulture just hit the chain
       </button>
 
-      <div className="flex flex-col sm:flex-row relative justify-center mt-10 sm:mt-16 md:mt-20 gap-4 sm:gap-6 md:gap-8 lg:gap-10 mx-auto">
+      <div className="flex flex-col sm:flex-row relative justify-center mt-10 max-w-full sm:mt-16 md:mt-20 gap-4 sm:gap-6 md:gap-8 lg:gap-10 mx-auto">
         <Image
           src={"/images/dripLine1.png"}
           width={550}
           height={550}
           alt="drip line 1"
-          className="absolute -top-20 sm:-top-32 md:-top-40 -left-4 sm:-left-8 md:-left-12 lg:-left-16 xl:-left-20 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
+          className="absolute -top-20 sm:-top-32 md:-top-40 left-0 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
         />
 
         <Image
@@ -33,7 +33,7 @@ const Drip = () => {
           width={550}
           height={550}
           alt="drip line 2"
-          className="absolute -bottom-20 sm:-bottom-32 md:-bottom-40 -right-4 sm:-right-8 md:-right-12 lg:-right-16 xl:-right-20 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
+          className="absolute -bottom-20 sm:-bottom-32 md:-bottom-40 right-0 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
         />
         <ArtCard
           image="/images/art4.png"
