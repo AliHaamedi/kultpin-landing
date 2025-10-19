@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const TopNavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,10 +34,12 @@ const TopNavBar = () => {
         We breath the Kulture
       </h2>
 
-      <button className="font-bold bg-secondary border-transparent transition-all py-0.5 px-2 sm:px-2.5 text-primary rounded-sm cursor-pointer hover:text-white hover:bg-transparent duration-400 border hover:border-secondary text-xs sm:text-sm">
-        <span className="hidden sm:inline">Explore ARTs</span>
-        <span className="sm:hidden">ARTs</span>
-      </button>
+      <Link href={"#drip"}>
+        <button className="font-bold bg-secondary border-transparent transition-all py-0.5 px-2 sm:px-2.5 text-primary rounded-sm cursor-pointer hover:text-white hover:bg-transparent duration-400 border hover:border-secondary text-xs sm:text-sm">
+          <span className="hidden sm:inline">Explore ARTs</span>
+          <span className="sm:hidden">ARTs</span>
+        </button>
+      </Link>
     </div>
   );
 };

@@ -1,9 +1,13 @@
 import Image from "next/image";
 import ArtCard from "./ArtCard";
+import Link from "next/link";
 
 const Drip = () => {
   return (
-    <div className="flex flex-col items-center gap-3 sm:gap-4 md:gap-5 px-4 sm:px-6 md:px-8">
+    <div
+      className="flex flex-col items-center gap-3 sm:gap-4 md:gap-5 px-4 sm:px-6 md:px-8 pt-20 sm:pt-28 md:pt-32 lg:pt-40"
+      id="drip"
+    >
       <Image
         src="/images/drip.svg"
         alt="drip"
@@ -15,9 +19,11 @@ const Drip = () => {
         We&apos;re LIVE on DRiP
       </h1>
 
-      <button className="font-bold hover:bg-secondary hover:border-transparent transition-all py-0.5 px-2 sm:px-2.5 hover:text-primary rounded-sm cursor-pointer text-white bg-transparent duration-400 border border-secondary text-xs sm:text-sm md:text-base">
-        Kulture just hit the chain
-      </button>
+      <a href={"https://drip.haus/kultpin"} target="_blank">
+        <button className="font-bold hover:bg-secondary hover:border-transparent transition-all py-0.5 px-2 sm:px-2.5 hover:text-primary rounded-sm cursor-pointer text-white bg-transparent duration-400 border border-secondary text-xs sm:text-sm md:text-base">
+          Kulture just hit the chain
+        </button>
+      </a>
 
       <div className="flex flex-col sm:flex-row relative justify-center mt-10 max-w-full sm:mt-16 md:mt-20 gap-4 sm:gap-6 md:gap-8 lg:gap-10 mx-auto">
         <Image
