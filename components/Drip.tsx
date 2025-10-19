@@ -31,7 +31,7 @@ const Drip = () => {
           width={550}
           height={550}
           alt="drip line 1"
-          className="absolute -top-20 sm:-top-32 md:-top-40 left-0 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
+          className="absolute -top-20 sm:-top-32 md:-top-16 left-4 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
         />
 
         <Image
@@ -39,7 +39,7 @@ const Drip = () => {
           width={550}
           height={550}
           alt="drip line 2"
-          className="absolute -bottom-20 sm:-bottom-32 md:-bottom-40 right-0 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
+          className="absolute -bottom-20 sm:-bottom-32 md:-bottom-16 right-4 w-24 sm:w-32 md:w-48 lg:w-64 xl:w-80 h-auto opacity-50 sm:opacity-100 hidden sm:block"
         />
         <ArtCard
           image="/images/art4.png"
