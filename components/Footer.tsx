@@ -3,14 +3,15 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="py-32 flex flex-col items-center">
-      <Image
-        src="/icons/logo.svg"
-        alt="logo"
-        width={60}
-        height={60}
-        className="size-20"
-      />
-
+      <a href="#" className="cursor-pointer">
+        <Image
+          src="/icons/logo.svg"
+          alt="logo"
+          width={60}
+          height={60}
+          className="size-20 animate-bounce"
+        />
+      </a>
       <div className="flex items-center justify-center mt-5">
         <h3 className="font-bold text-base">Ping Us Anytime | </h3>
         <a

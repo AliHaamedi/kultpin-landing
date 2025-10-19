@@ -1,9 +1,11 @@
 import Image from "next/image";
+import SlideInLeft from "./animations/SlideInLeft";
+import SlideInRight from "./animations/SlideInRight";
 
 const Kultpin = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20 py-20 sm:py-28 md:py-32 lg:py-40 max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
-      <div className="w-full lg:w-1/2">
+      <SlideInLeft className="w-full lg:w-1/2" delay={0.2}>
         <h1 className="font-bob text-secondary text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           <span className="font-space font-bold">$</span>KULTPIN
         </h1>
@@ -22,8 +24,8 @@ const Kultpin = () => {
         <h2 className="text-primary text-lg sm:text-xl font-bold">
           Coming Soon
         </h2>
-      </div>
-      <div className="w-full lg:w-1/2">
+      </SlideInLeft>
+      <SlideInRight className="w-full lg:w-1/2" delay={0.4}>
         <Image
           src={"/images/coin2.gif"}
           width={440}
@@ -31,7 +33,7 @@ const Kultpin = () => {
           alt="pack line"
           className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[440px] h-auto mx-auto"
         />
-      </div>
+      </SlideInRight>
     </div>
   );
 };

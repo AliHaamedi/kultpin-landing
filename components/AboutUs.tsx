@@ -1,9 +1,11 @@
 import Image from "next/image";
+import SlideInLeft from "./animations/SlideInLeft";
+import SlideInRight from "./animations/SlideInRight";
 
 const AboutUs = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center gap-20 sm:gap-12 md:gap-16 lg:gap-20 pt-20 sm:pt-28 md:pt-32 lg:pt-40 max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
-      <div className="w-full lg:w-1/2">
+      <SlideInLeft className="w-full lg:w-1/2" delay={0.2}>
         <h1 className="font-bob text-secondary text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           About Us
         </h1>
@@ -24,8 +26,11 @@ const AboutUs = () => {
         <h2 className="text-primary text-lg sm:text-xl font-bold">
           Powered by Solana
         </h2>
-      </div>
-      <div className="w-full lg:w-1/2 relative top-8 sm:top-12 md:top-16 ">
+      </SlideInLeft>
+      <SlideInRight
+        className="w-full lg:w-1/2 relative top-8 sm:top-12 md:top-16"
+        delay={0.4}
+      >
         <Image
           src={"/images/packLine.png"}
           width={550}
@@ -40,7 +45,7 @@ const AboutUs = () => {
           alt="pack"
           className="absolute -top-1/2 left-1/2 -translate-x-1/2 w-full max-w-[300px] sm:max-w-[400px] md:max-w-[450px] lg:max-w-[550px] h-auto"
         />
-      </div>
+      </SlideInRight>
     </div>
   );
 };
