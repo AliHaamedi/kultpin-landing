@@ -5,7 +5,8 @@ const HeroSection = () => {
     <section className="relative h-screen bg-cover bg-center bg-no-repeat hero-background flex justify-center items-center">
       <Image
         // src="/images/LandingGif.gif"
-        src="/images/kultpin.svg"
+        // src="/images/kultpin.svg"
+        src="/images/kultpin.png"
         alt="kultpin"
         width={1284}
         height={277}
